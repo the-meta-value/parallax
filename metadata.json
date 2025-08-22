@@ -1,0 +1,5 @@
+{
+  "name": "Parallax Code Review",
+  "description": "An AI-powered code review tool that analyzes your code and provides suggestions for improvement from a different point of view, focusing on best practices, potential bugs, and readability. Just paste your code, select the language, and get instant feedback.",
+  "requestFramePermissions": []
+}
