@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" height="475" alt="Parallax Code Reviewer" />
+<p>Parallax Code Reviewer"</p>
 </div>
 
 
