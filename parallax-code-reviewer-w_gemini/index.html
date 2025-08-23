@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax Code Reviewer w/Gemini</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                // Using a "Rosé Pine" inspired palette for a modern, developer-friendly look.
+                surface: '#191724',    // Base background
+                overlay: '#26233a',    // Slightly lighter background for cards, inputs
+                muted: '#6e6a86',      // Muted text, borders
+                subtle: '#908caa',     // More prominent text, icons
+                text: '#e0def4',       // Main text color
+                love: '#eb6f92',       // Errors, destructive actions
+                gold: '#f6c177',       // Warnings, highlights
+                rose: '#ebbcba',       // Secondary highlight
+                pine: '#31748f',       // Success, positive feedback
+                foam: '#9ccfd8',       // Accent color
+                iris: '#c4a7e7',       // Primary action, links, focus rings
+              }
+            }
+          }
+        }
+      }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "@google/genai": "https://esm.sh/@google/genai@^1.12.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-brand-surface text-brand-text antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

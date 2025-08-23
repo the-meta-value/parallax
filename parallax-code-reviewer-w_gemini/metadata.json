@@ -1,0 +1,5 @@
+{
+  "name": "Parallax Code Reviewer w/Gemini",
+  "description": "See your code from another perspective. Parallax Code Reviewer uses Gemini to offer fresh insights and suggestions, helping you improve code quality, find bugs, and enhance readability.",
+  "requestFramePermissions": []
+}
